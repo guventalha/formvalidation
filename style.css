@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  background-color: darkslateblue;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  justify-content: space-around;
+  width: 100%;
+}
+.header h2 {
+  color: aliceblue;
+}
+
+#search {
+  border: none;
+  border-radius: 20px;
+  height: 2rem;
+  width: 400px;
+  outline: none;
+  padding: 5px;
+}
+
+#search-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: darkslateblue;
+  background-color: aliceblue;
+  font-weight: 600;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 30px;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+#search-btn:hover {
+  border: 3px solid white;
+}
+.login-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: darkslateblue;
+  background-color: aliceblue;
+  font-weight: 600;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 30px;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.search-field {
+  display: flex;
+}
+.container {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.product {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  height: 400px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.product h3 {
+  height: 3rem;
+  font-size: 1rem;
+}
+.product-image {
+  width: 90%;
+  object-fit: contain;
+  height: 70%;
+}
+
+.add-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: aliceblue;
+  background-color: darkslateblue;
+  font-weight: 600;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 7px;
+  margin-left: 10px;
+  transition: 0.3s;
+  display: block;
+  font-size: 1rem;
+  padding: 2px;
+}
+.add-field {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.white {
+  color: white;
+  margin-right: 7px;
+}
+
+.cart-count {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+.cart-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
